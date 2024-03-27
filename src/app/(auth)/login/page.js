@@ -91,7 +91,7 @@ const Login = () => {
                 <input
                   id="username"
                   type="text"
-                  className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                  className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black" 
                   {...formik.getFieldProps('username')}
                 />
                 {formik.touched.username && formik.errors.username ? (
@@ -105,7 +105,7 @@ const Login = () => {
                 <input
                   id="password"
                   type="password"
-                  className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                  className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black"
                   {...formik.getFieldProps('password')}
                 />
                 {formik.touched.password && formik.errors.password ? (

@@ -85,7 +85,7 @@ const DonationForm = () => {
                             type="text"
                             id="name"
                             name="name"
-                            className="mt-1 p-2 w-full border rounded-md"
+                            className="mt-1 p-2 w-full border rounded-md text-black"
                             {...formik.getFieldProps('name')}
                         />
                         {formik.touched.name && formik.errors.name ? (
@@ -104,7 +104,7 @@ const DonationForm = () => {
                                 type="text"
                                 id="amount"
                                 name="amount"
-                                className="pl-7 pr-2 py-2 w-full border rounded-md"
+                                className="pl-7 pr-2 py-2 w-full border rounded-md text-black"
                                 {...formik.getFieldProps('amount')}
                             />
                             {formik.touched.amount && formik.errors.amount ? (
@@ -120,7 +120,7 @@ const DonationForm = () => {
                             type="text"
                             id="note"
                             name="note"
-                            className="mt-1 p-2 w-full border rounded-md"
+                            className="mt-1 p-2 w-full border rounded-md text-black"
                             {...formik.getFieldProps('note')}
                         />
                         {formik.touched.note && formik.errors.note ? (

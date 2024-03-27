@@ -122,7 +122,7 @@ const Register = () => {
               <input
                 id="username"
                 type="text"
-                className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black"
                 {...formik.getFieldProps('username')}
               />
               {formik.touched.username && formik.errors.username ? (
@@ -137,7 +137,7 @@ const Register = () => {
               <input
                 id="password"
                 type="password"
-                className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black"
                 {...formik.getFieldProps('password')}
               />
               {formik.touched.password && formik.errors.password ? (
@@ -152,7 +152,7 @@ const Register = () => {
               <input
                 id="email"
                 type="email" // Use type="email" for email fields
-                className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black"
                 {...formik.getFieldProps('email')}
               />
               {formik.touched.email && formik.errors.email ? (
@@ -167,7 +167,7 @@ const Register = () => {
               <input
                 id="Address"
                 type="text"
-                className="mt-1 p-2 w-full border border-red-300 rounded-lg"
+                className="mt-1 p-2 w-full border border-red-300 rounded-lg text-black"
                 {...formik.getFieldProps('Address')}
               />
               {formik.touched.Address && formik.errors.Address ? (
