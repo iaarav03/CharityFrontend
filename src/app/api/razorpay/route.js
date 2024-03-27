@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Razorpay from "razorpay";
 import shortid from "shortid";
-import NextCors from 'nextjs-cors';
 
 const instance = new Razorpay({
     key_id: process.env.RAZORPAY_API_KEY,
@@ -13,10 +12,6 @@ export async function POST(req,res) {
 
   // const {amount}=req.body*100;
   // const amount=await req.json();
-  await NextCors(req, res, {
-    origin: '*',
-    methods: ['GET', 'POST'],
-  });
   const check=await req.json();
   const money=check.amount;
   // console.log(amount);
@@ -38,19 +33,8 @@ export async function POST(req,res) {
         }
     };
 
-    try {
-      const order = await instance.orders.create(options);
-  
-      // Add CORS headers
-      res.setHeader('Access-Control-Allow-Origin', 'https://yogdaan-charity.netlify.app/'); // Replace with your domain
-      res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-      res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  
-      return NextResponse.json({ msg: "success", order });
-    } catch (error) {
-      // Handle errors appropriately
-      return NextResponse.json({ error: error.message }, { status: 500 }); 
-    }
+   const order = await instance.orders.create(options);
+  return NextResponse.json({ msg: "success",order });
 }
 
 
