@@ -33,8 +33,19 @@ export async function POST(req,res) {
         }
     };
 
-   const order = await instance.orders.create(options);
-  return NextResponse.json({ msg: "success",order });
+    try {
+      const order = await instance.orders.create(options);
+  
+      // Add CORS headers
+      res.setHeader('Access-Control-Allow-Origin', 'https://your-frontend-domain.com'); // Replace with your domain
+      res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  
+      return NextResponse.json({ msg: "success", order });
+    } catch (error) {
+      // Handle errors appropriately
+      return NextResponse.json({ error: error.message }, { status: 500 }); 
+    }
 }
 
 
