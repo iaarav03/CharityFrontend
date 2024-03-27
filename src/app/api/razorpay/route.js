@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Razorpay from "razorpay";
 import shortid from "shortid";
+import NextCors from 'nextjs-cors';
 
 const instance = new Razorpay({
     key_id: process.env.RAZORPAY_API_KEY,
@@ -12,6 +13,10 @@ export async function POST(req,res) {
 
   // const {amount}=req.body*100;
   // const amount=await req.json();
+  await NextCors(req, res, {
+    origin: '*',
+    methods: ['GET', 'POST'],
+  });
   const check=await req.json();
   const money=check.amount;
   // console.log(amount);
