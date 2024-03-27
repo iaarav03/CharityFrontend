@@ -37,7 +37,7 @@ export async function POST(req,res) {
       const order = await instance.orders.create(options);
   
       // Add CORS headers
-      res.setHeader('Access-Control-Allow-Origin', 'https://your-frontend-domain.com'); // Replace with your domain
+      res.setHeader('Access-Control-Allow-Origin', 'https://yogdaan-charity.netlify.app/'); // Replace with your domain
       res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
       res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   
