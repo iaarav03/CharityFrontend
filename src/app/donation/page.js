@@ -7,7 +7,7 @@ const Donation = () => {
   return (
     <div>
     <div className=' bg-white h-[20vh] container mx-auto flex justify-center items-center'>
-  <h1 className="text-5xl md:text-6xl lg:text-6xl text-green-900 font-marker mt-20 ">
+  <h1 className="text-4xl md:text-6xl lg:text-6xl text-green-900 font-marker mt-20 ">
     Make <span className="text-green-500">The</span> Change
   </h1>
 </div>
@@ -17,7 +17,7 @@ const Donation = () => {
         
           <div className='container relative h-[70vh]  min-w-full  md:w-[50vw] lg:pl-24'>
           
-            <Image src="/donation.jpeg" width={550} height={200} objectFit="cover" className='overflow-hidden ' />
+            <Image src="/donation.jpeg" width={550} height={200} objectFit="cover" className='overflow-hidden h-[80vh] md:h-[70vh]' />
           </div>
           <div className='min-w-96 absolute pb-20'>
           {/* <h1 className="text-6xl md:pl-96 text-center md:text-5xl lg:text-6xl text-green-900  font-marker h-20    ">Make <span className="text-green-500">The</span> Change</h1> */}

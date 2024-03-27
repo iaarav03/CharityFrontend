@@ -19,7 +19,7 @@ const About = () => {
         <div className="container mx-auto px-4 py-8">
   <div className="max-w-screen-md mx-auto text-center">
     <h1 className="text-5xl lg:text-6xl text-gray-600">WHO WE ARE</h1>
-    <p className="mt-10 lg:mt-10 text-lg">Yogdaan is more than just a charity donation platform; its a beacon of hope and a catalyst for positive change. Founded on the principles of transparency, empathy, and community empowerment, we strive to connect passionate donors with impactful projects around the globe. At Yogdaan, we believe in the power of collective action and the transformative potential of small acts of kindness. Our platform offers a seamless and secure way for individuals to contribute to causes they care about deeply, knowing that their donations will directly benefit those in need. We are  not just facilitating transactions; we are building bridges between hearts and communities, fostering a sense of belonging and shared responsibility for a brighter future.</p>
+    <p className="mt-10 lg:mt-10 text-lg text-black">Yogdaan is more than just a charity donation platform; its a beacon of hope and a catalyst for positive change. Founded on the principles of transparency, empathy, and community empowerment, we strive to connect passionate donors with impactful projects around the globe. At Yogdaan, we believe in the power of collective action and the transformative potential of small acts of kindness. Our platform offers a seamless and secure way for individuals to contribute to causes they care about deeply, knowing that their donations will directly benefit those in need. We are  not just facilitating transactions; we are building bridges between hearts and communities, fostering a sense of belonging and shared responsibility for a brighter future.</p>
   </div>
   <hr class="mx-auto my-8 w-32 border-t-2 border-gray-400" />
   <div className='mt-10 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 ml-4 md:ml-28  '>
@@ -32,7 +32,7 @@ const About = () => {
               className="w-full h-[300px]"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Vision</div>
+              <div className="font-bold text-xl mb-2 text-black">Vision</div>
               <p className="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                 perferendis eaque, exercitationem praesentium nihil.
@@ -50,7 +50,7 @@ const About = () => {
               className="w-full h-[300px]"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Mission</div>
+              <div className="font-bold text-xl mb-2 text-black">Mission</div>
               <p className="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                 perferendis eaque, exercitationem praesentium nihil.
@@ -68,7 +68,7 @@ const About = () => {
               className="w-full h-[300px]"
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Values</div>
+              <div className="font-bold text-xl mb-2 text-black">Values</div>
               <p className="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
                 perferendis eaque, exercitationem praesentium nihil.
@@ -81,7 +81,7 @@ const About = () => {
         <hr class="mx-auto my-8 w-32 border-t-2 border-gray-400" />
   <div className="max-w-screen-md mx-auto text-center">
     <h1 className="text-5xl lg:text-6xl text-gray-600">Our Strength is Our Team</h1>
-    <p className="mt-10 lg:mt-10 text-lg">The team at Yogdaan is committed to creating change and breaking the cycle of poverty. They give tirelessly of their time, working around the clock and around the globe to provide our children with their best opportunities in life.</p>
+    <p className="mt-10 lg:mt-10 text-lg text-black">The team at Yogdaan is committed to creating change and breaking the cycle of poverty. They give tirelessly of their time, working around the clock and around the globe to provide our children with their best opportunities in life.</p>
   </div>
   
 </div>

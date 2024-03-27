@@ -87,23 +87,23 @@ const handleSubmit=()=>{
      </div>
      <div className="flex justify-center items-center h-[60vh] bg-gray-100">
       <div className="text-center">
-        <h1 className="text-4xl font-bold  mb-4">India’s most trusted online donation platform</h1>
+        <h1 className="text-4xl font-bold text-black mb-4">India’s most trusted online donation platform</h1>
         <div className="grid grid-cols-2 gap-8">
           <div>
             <FaHandHoldingHeart className="text-6xl text-blue-500 mb-2 mx-auto" />
-            <p className="text-lg">2.7M+ Donors</p>
+            <p className="text-lg text-black">2.7M+ Donors</p>
           </div>
           <div>
             <FaUserFriends className="text-6xl text-green-500 mb-2 mx-auto" />
-            <p className="text-lg">15M+ Lives Impacted</p>
+            <p className="text-lg text-black">15M+ Lives Impacted</p>
           </div>
           <div>
             <FaBuilding className="text-6xl text-yellow-500 mb-2 mx-auto" />
-            <p className="text-lg">3000+ Verified Non Profits</p>
+            <p className="text-lg text-black">3000+ Verified Non Profits</p>
           </div>
           <div>
             <FaHandshake className="text-6xl text-purple-500 mb-2 mx-auto" />
-            <p className="text-lg">300+ Corporate Partners</p>
+            <p className="text-lg text-black">300+ Corporate Partners</p>
           </div>
         </div>
       </div>
