@@ -17,7 +17,7 @@ const BuyProduct = ({amount}) => {
     
     try {
       // Make API call using Axios
-      const response = await axios.post("http://localhost:3000/api/razorpay", {
+      const response = await axios.post("api/razorpay", {
         amount: amount
       });
 
