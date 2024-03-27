@@ -33,7 +33,7 @@ const ScsStory = () => {
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Priya</div>
               <p className="text-gray-700 text-base">
-              "Yogdaan helped provide school supplies for Priya's children. Now they have the resources they need to learn and build a brighter future for themselves."
+              Yogdaan helped provide school supplies for Priya children. Now they have the resources they need to learn and build a brighter future for themselves.
               </p>
             </div>
           
@@ -51,7 +51,7 @@ const ScsStory = () => {
               <div className="font-bold text-xl mb-2">Arun</div>
               <p className="text-gray-700 text-base">
               {/* "After losing his job, Rajesh received essential support thanks to charity donations. This aid helped him get back on his feet and secure a new job to provide for his family." */}
-              "Yogdaan covered Arun's school fees, opening the doors to education. Now, he has the opportunity to learn, grow, and reach his full potential."
+              Yogdaan covered Arun school fees, opening the doors to education. Now, he has the opportunity to learn, grow, and reach his full potential.
               </p>
             </div>
           
@@ -68,7 +68,7 @@ const ScsStory = () => {
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Asha Devi</div>
               <p className="text-gray-700 text-base">
-              "Yogdaan funded a well in Asha Devi's village, providing clean drinking water. This has significantly improved the health and well-being of her community."
+              Yogdaan funded a well in Asha Devi village, providing clean drinking water. This has significantly improved the health and well-being of her community.
               </p>
             </div>
             

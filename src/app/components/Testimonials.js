@@ -34,7 +34,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>"Yogdaan turned my small contributions into big smiles for many. It’s heartwarming to see the difference we can make together<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Yogdaan turned my small contributions into big smiles for many. Its heartwarming to see the difference we can make together<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -47,7 +47,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>"Yogdaan turned my small contributions into big smiles for many. It’s heartwarming to see the difference we can make together.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Yogdaan turned my small contributions into big smiles for many. Its heartwarming to see the difference we can make together.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> "Yogdaan has made giving so accessible and meaningful. It’s not just a donation; it’s a lifeline to those in need, and I’m proud to contribute."<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> Yogdaan has made giving so accessible and meaningful. Its not just a donation; its a lifeline to those in need, and Im proud to contribute.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -75,7 +75,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span> "Finding Yogdaan was a revelation. Finally, a platform where I can ensure my contributions directly support causes I care about. It’s simple, effective, and heartwarming."<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span> Finding Yogdaan was a revelation. Finally, a platform where I can ensure my contributions directly support causes I care about. Its simple, effective, and heartwarming.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>"Through Yogdaan, I've connected with causes I'm truly passionate about and joined a community of like-minded donors. It's more than just a donation platform; it's a movement towards a better future."<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Through Yogdaan, I have connected with causes I m truly passionate about and joined a community of like-minded donors. Its more than just a donation platform; its a movement towards a better future.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -103,7 +103,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>"Yogdaan's transparency rebuilt my trust in charitable giving. It's gratifying to know exactly where my help goes."<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-sm leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1"></span>Yogdaans transparency rebuilt my trust in charitable giving. Its gratifying to know exactly where my help goes.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1"></span></p>
                         </div>
                     </div>
                 </div>
