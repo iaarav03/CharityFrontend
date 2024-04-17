@@ -21,12 +21,13 @@ const Navbar = () => {
             id:3,
             title:"Donation",
             link:"/donation"
-         },
-         {
-          id:4,
-          title:"Admin",
-          link:"/register"
          }
+        //  },
+        //  {
+        //   id:4,
+        //   title:"Admin",
+        //   link:"/register"
+        //  }
       ];
       
 
